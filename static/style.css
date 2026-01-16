@@ -1,0 +1,30 @@
+body {
+    background: #0f0f0f;
+    color: white;
+    font-family: Arial;
+}
+
+.app {
+    width: 360px;
+    margin: auto;
+    text-align: center;
+}
+
+input, select, button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}

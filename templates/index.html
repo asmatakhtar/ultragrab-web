@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UltraGrab Pro</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>UltraGrab</h1>
+    <p class="subtitle">Premium Multi-Downloader</p>
+
+    <input id="url" placeholder="Paste Video Link">
+    <button onclick="analyze()">Analyze</button>
+
+    <img id="thumb" hidden>
+    <h3 id="title"></h3>
+
+    <select id="quality"></select>
+
+    <label>
+        <input type="checkbox" id="audio"> Audio Only
+    </label>
+
+    <select id="audioFormat">
+        <option>mp3</option>
+        <option>m4a</option>
+        <option>wav</option>
+    </select>
+
+    <button onclick="download()">START DOWNLOAD</button>
+    <p id="status"></p>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
